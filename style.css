@@ -1,0 +1,32 @@
+body {
+  font-size: 15pt;
+  background-color: #FF0000;
+}
+legend {
+  align-items: center;
+  text-align: center;
+  border: 5px solid #83FF00;
+  border-radius: 30px;
+  background-color: #83FF00;
+  color: #FFFFFF;
+}
+fieldset {
+  border: 5px solid #83FF00;
+  border-radius: 39px;
+}
+.gif_natal{
+  animation-name: slid;
+  animation-duration: infinite;
+  animation-iteration-count: infinite;
+}
+@keyframes slid{
+  25%{
+    transform: translateX(-20px);
+  }
+  50%{
+    transform: translateX(20px);
+  }
+  50%{
+    transform: translateY(0px);
+  }
+}
